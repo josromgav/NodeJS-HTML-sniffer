@@ -1,0 +1,21 @@
+{
+  "name": "testmongoose",
+  "version": "1.0.0",
+  "description": "Node sniffer",
+  "main": "core.js",
+  "scripts": {
+    "start": "node core",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josromgav",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "jsdom": "^13.0.0"
+  }
+}
