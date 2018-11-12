@@ -4,7 +4,7 @@ var sniffer = {};
 
 
 sniffer.getHTMLFromHttp = function(url,callback){
-    return https.get(url,function(res,bet){
+    return http.get(url,function(res,bet){
         var body = '';
         res.on('data',function(d){
             body += d;

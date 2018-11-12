@@ -1,7 +1,7 @@
 {
-  "name": "testmongoose",
+  "name": "htmlscrapper",
   "version": "1.0.0",
-  "description": "Node sniffer",
+  "description": "Node html scrapper",
   "main": "core.js",
   "scripts": {
     "start": "node core",

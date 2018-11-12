@@ -4,7 +4,7 @@ var sniffer = require("./htmlSniffer");
 var filter = {};
 
 filter.extractFrom = function(url, callback){
-    sniffer.getHTMLFromHttp(url,function(html){
+    sniffer.getHTMLFromHttps(url,function(html){
         callback(filterData(html));
     });
 }
